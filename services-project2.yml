@@ -109,7 +109,6 @@ Resources:
           unzip -o udacityApp.zip
       ImageId: ami-052efd3df9dad4825
       InstanceType: !Ref InstanceTypeWebApp
-      KeyName: udagram-project-webapp-key
       IamInstanceProfile:
         Fn::ImportValue: "OutputInstance-Profile"
       SecurityGroups:
