@@ -1,0 +1,14 @@
+[
+    {
+        "ParameterKey": "EnvironmentName",
+        "ParameterValue": "udagramNetwork1"
+    },
+    {
+        "ParameterKey": "InstanceTypeJumpbox",
+        "ParameterValue": "t3.micro"
+    },
+    {
+        "ParameterKey": "InstanceTypeWebApp",
+        "ParameterValue": "t3.small"
+    }
+]
